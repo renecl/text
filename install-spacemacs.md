@@ -121,6 +121,13 @@ Make sure to checkout this page: [Link to Spacemacs Go layer](https://develop.sp
     ```bash
         brew install nodejs
     ```
+    Solve the error: The `brew link` step did not complete successfully
+    
+    thanks to: https://github.com/Homebrew/homebrew-core/issues/9769#issuecomment-278725984
+    
+    sudo chown -R $USER /usr/local 
+    
+ 
     > Note: installing node.js was not necessary on Ubuntu.
 
     Check if everything is installed
